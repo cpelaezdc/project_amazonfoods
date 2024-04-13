@@ -70,3 +70,14 @@ Go to Default table
 
 
 ![Alt text](/images/CreateTable.png)
+
+Add user_amazonfoods_accessKeys.csv generated in amazon:
+
+![Alt text](/images/addKeyAccessCsv.png)
+![Alt text](/images/TableKeyAccess.png)
+
+Create a Notebook name s3_amazonfoods.py
+
+![Alt text](/images/CreateNotebook.png)
+
+
