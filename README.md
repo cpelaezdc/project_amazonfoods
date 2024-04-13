@@ -30,8 +30,43 @@ Download access Key
 ![Alt Text](/images/imaUserAccessKey.png)
 
 
+### Create a Bucket S3
+
+![Alt Text](/images/CreateBucket1.png)
+
+![Alt Text](/images/CreateBucket2.png)
+
+Other settings by default.
+
+Upload file:
+
+![Alt Text](/images/FileinBucket.png)
+
+Make public using ACL
+
+![Alt Text](/images/FileinBucket2.png)
 
 
 
+## AZURE PORTAL
+
+### Create account Azure DataBricks
+
+![Alt Text](/images/CreateCompteAzureDataBricks.png)
+
+![Alt Text](/images/CreateCompteAzureDataBricks2.png)
+
+![Alt Text](/images/DataBricksGotoResource.png)
+
+![Alt Text](/images/DataBricksLaunch.png)
+
+### Create a cluster
+
+![alt text](/images/DatabricksCompute.png)
+
+Got to Catalog in DataBricks
+
+Go to Default table
 
 
+![Alt text](/images/CreateTable.png)
