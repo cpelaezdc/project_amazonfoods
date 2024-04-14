@@ -3,3 +3,4 @@
 /foodsAWS.*
 /foodsAzure.*
 /*.json
+/authorisation.py.ipynb

@@ -164,11 +164,20 @@ Add user_amazonfoods_accessKeys.csv generated in amazon:
 #### To access to Azure container create a python to autorize access.  
 
 
-
-
-
 Create a Notebook name s3_amazonfoods.py
 
 ![Alt text](/images/CreateNotebook.png)
+
+-  Authorisation notebook with corresponding settings to access data in Azure and AWS.
+
+    
+    ![Alt text](/images/AuthorisationPython.png)
+    
+
+
+-  Another notebook to load data and manipulate dataframes (Results inside)
+
+    -  [loadAndTransform.py.ipynb](loadAndTransform.py.ipynb)
+
 
 
