@@ -1,7 +1,12 @@
 import json
 
-input_file ="C:\\Users\\username\\Downloads\\finefoods\\foods.txt"
-output_file = "C:\\Users\\username\\Downloads\\finefoods\\foodstest.json"
+directory = "D:\\BIGDATA\\420_D07_BB_DEVELOPPEMENT_DE_TRAITEMENTS_DISTRIBUES\\projet\project_amazonfoods"
+input_file_aws = "foodsAWS.txt"
+output_file_aws = "foodsAWS.json"
+
+input_file_azure = "foodsAzure.txt"
+output_file_azure = "foodsAzure.json"
+
 
 # Function to convert text to JSON
 def text_to_json(input_file, output_file):
@@ -34,5 +39,11 @@ def text_to_json(input_file, output_file):
         json.dump(json_objects, file, indent=4)
 
 
-# Example usage
-text_to_json(input_file, output_file)
+# take files and convert to json format
+input = f"{directory}\\{input_file_aws}"
+output = f"{directory}\\{output_file_aws}"
+text_to_json(input, output)
+
+input = f"{directory}\\{input_file_azure}"
+output = f"{directory}\\{output_file_azure}"
+text_to_json(input, output)

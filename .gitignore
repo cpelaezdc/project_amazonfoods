@@ -1,4 +1,5 @@
 /user_amazonfoods_credentials.csv
 /user_amazonfoods_accessKeys.csv
-/foodsAWS.txt
-/foodsAzure.txt
+/foodsAWS.*
+/foodsAzure.*
+/*.json
