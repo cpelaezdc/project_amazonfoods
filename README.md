@@ -21,22 +21,12 @@ review/time: 1330473600
 review/summary: Amazing to the last bite.
 review/text: Always being a fan of ramen as a quick and easy meal, finding it on amazon for a decent price and having it delivered to your door by the case is an amazing situation for anyone to find themselves in.
 
-product/productId: B003OB0IB8
-review/userId: A2DLRG3YX6A2ZU
-review/profileName: luckybabe
-review/helpfulness: 2/3
-review/score: 2.0
-review/time: 1323820800
-review/summary: Not for me
-review/text: I must be a bit of a wuss, because this soup tastes to me how I imagine fire might taste. Typically I like spicy food if it has a good flavor.  I don't find this to be the case with this soup. Any flavor is killed off by the burn.
-
 ```
 
 They has been converted to json with python scriopt convert_textfile_json.py
+[convert_textfile_json.py](convert_textfile_json.py)
 
-```
-  convert_textfile_json.py
-```
+
 
 ```json
 [
@@ -49,16 +39,6 @@ They has been converted to json with python scriopt convert_textfile_json.py
         "review/time": "1303862400",
         "review/summary": "Good Quality Dog Food",
         "review/text": "I have bought several of the Vitality canned dog food products and have found them all to be of good quality. The product looks more like a stew than a processed meat and it smells better. My Labrador is finicky and she appreciates this product better than  most."
-    },
-    {
-        "product/productId": "B00813GRG4",
-        "review/userId": "A1D87F6ZCVE5NK",
-        "review/profileName": "dll pa",
-        "review/helpfulness": "0/0",
-        "review/score": "1.0",
-        "review/time": "1346976000",
-        "review/summary": "Not as Advertised",
-        "review/text": "Product arrived labeled as Jumbo Salted Peanuts...the peanuts were actually small sized unsalted. Not sure if this was an error or if the vendor intended to represent the product as \"Jumbo\"."
     }
 ]
 
